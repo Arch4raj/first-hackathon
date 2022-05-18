@@ -1,0 +1,52 @@
+h1{
+  text-transform: uppercase;
+    text-align: center;
+   font-size: 40px;
+    color:rgb(123, 8, 8);
+}
+/* .pokemon{
+    display:flex; 
+      flex-wrap:wrap;
+     gap:10 rem;
+} */
+.content{
+    display:flex;
+    border: 5px solid brown;
+    border-radius: 20px;
+    font-size: 25px;
+    margin-top:150px;
+    padding: 30px;
+    max-width: 800px;
+    background: rgb(94, 158, 195);
+}
+.pokeimg{
+    width: 200px;
+    /* object-fit: contain; */
+
+}
+body{
+   
+    
+    
+    /* display:flex;
+    flex-wrap: wrap; */
+    /* gap: 3rem; */
+    justify-content: center;
+    align-items: center;
+   
+    background: rgb(192, 151, 126);
+}
+.container{
+    display: flex;
+}
+.info{
+    margin-left: 150px;
+    word-spacing: 1 rem;
+    color:rgb(27, 27, 120);
+}
+ div span{
+    text-transform: capitalize;
+    font-weight: bold;
+    
+    
+}
